@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iilei/joi-emoji-regex.git"
+    "url": "git+https://github.com/iilei/joi-emoji-constraints.git"
   },
   "bugs": {
-    "url": "https://github.com/iilei/joi-emoji-regex/issues"
+    "url": "https://github.com/iilei/joi-emoji-constraints/issues"
   },
-  "homepage": "https://github.com/iilei/joi-emoji-regex#readme",
+  "homepage": "https://github.com/iilei/joi-emoji-constraints#readme",
   "dependencies": {
     "emoji-regex": "^6.5.1"
   }
