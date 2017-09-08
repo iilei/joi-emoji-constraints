@@ -28,7 +28,7 @@
   "author": "Jochen Preusche (Iilei)",
   "license": "MIT",
   "peerDependencies": {
-    "joi": "^9"
+    "joi": "^10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
