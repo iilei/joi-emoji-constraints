@@ -1,6 +1,6 @@
 {
   "name": "joi-emoji-constraints",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Expect Strings to [not] contain emojis with Joi",
   "main": "index.js",
   "scripts": {
