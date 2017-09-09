@@ -1,8 +1,8 @@
 {
   "name": "joi-emoji-constraints",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Expect Strings to [not] contain emojis with Joi",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "istanbul cover tape test.js",
     "lint": "eslint .",
@@ -36,7 +36,6 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-airbnb": "^2.4.0",
     "babel-preset-es2015-node6": "^0.4.0",
-    "babel-preset-minify": "^0.2.0",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.6.1",
     "eslint-config-airbnb-base": "^12.0.0",
