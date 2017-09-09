@@ -4,6 +4,17 @@ Extend Joi with Emoji Constraints (min max)
 
 ## Usage
 
+```
+npm install --save joi-emoji-constraints
+```
+
+or 
+
+```
+yarn add joi-emoji-constraints
+```
+
+
 ```js
 var joiEmojiRegex = require('joi-emoji-constraints')
 var PlainJoi = require('joi');
