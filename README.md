@@ -1,3 +1,5 @@
+[![NSP Status](https://nodesecurity.io/orgs/iilei/projects/f395d0e1-b9a5-4303-a0c2-30ea07d694fd/badge)](https://nodesecurity.io/orgs/iilei/projects/f395d0e1-b9a5-4303-a0c2-30ea07d694fd)
+
 # joi-emoji-constraints
 
 Extend Joi with Emoji Constraints (min max)

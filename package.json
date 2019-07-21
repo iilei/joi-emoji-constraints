@@ -13,9 +13,8 @@
     "scan:security": "nsp check",
     "setenv:dev": "npm config set production false",
     "setenv:prod": "npm config set production true",
-    "prerelease": "npm run lint && npm run scan:security && npm run test && npm run clean && npm run setenv:prod && npm run build:dist",
-    "release": "standard-version",
-    "postrelease": "git push --follow-tags origin master && npm publish && npm run setenv:dev"
+    "preversion": "npm run lint && npm run scan:security && npm run test && npm run clean && npm run setenv:prod && npm run build:dist",
+    "postversion": "git push --follow-tags origin master && npm publish && npm run setenv:dev"
   },
   "keywords": [
     "emoji",
@@ -31,21 +30,36 @@
     "joi": "^10"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^7.2.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-airbnb": "^2.4.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-preset-airbnb": "^4.0.1",
     "babel-preset-es2015-node6": "^0.4.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
     "istanbul": "^0.4.5",
-    "joi": "^9.0.4",
-    "nsp": "^2.8.0",
-    "rimraf": "^2.6.1",
-    "standard-version": "^4.2.0",
-    "tape": "^4.6.0"
+    "joi": "^14.3.1",
+    "nsp": "^3.2.1",
+    "rimraf": "^2.6.3",
+    "tape": "^4.11.0"
   },
   "repository": {
     "type": "git",
@@ -56,7 +70,7 @@
   },
   "homepage": "https://github.com/iilei/joi-emoji-constraints#readme",
   "dependencies": {
-    "babel-register": "^6.26.0",
-    "emoji-regex": "^6.5.1"
+    "@babel/register": "^7.0.0",
+    "emoji-regex": "^8.0.0"
   }
 }
