@@ -4,3 +4,6 @@
 .eslintignore
 .eslintrc.yaml
 .idea
+
+.DS_Store
+*.log
