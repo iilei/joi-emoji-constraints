@@ -1,6 +1,6 @@
 const test = require('tape');
-const extEmoji = require('./');
 let Joi = require('joi');
+const extEmoji = require('./');
 
 // '%uD83D%uDE4A %uD83D%uDE48 %uD83D%uDE49'
 // :speak_no_evil: :see_no_evil: :hear_no_evil:
