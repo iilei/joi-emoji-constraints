@@ -28,19 +28,19 @@
     "joi": "^10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/runtime": "^7.5.5",
-    "babel-eslint": "^10.0.2",
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-eslint": "^10.0.3",
     "babel-preset-airbnb": "^4.0.1",
-    "core-js": "^3.1.4",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "core-js": "^3.2.1",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "istanbul": "^0.4.5",
     "joi": "^14.3.1",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.0",
     "tape": "^4.11.0"
   },
   "repository": {

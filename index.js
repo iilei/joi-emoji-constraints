@@ -16,7 +16,7 @@ const countEmojis = (str) => {
   return [count, countCodePoints];
 };
 
-const regexEmoji = joi => ({
+const regexEmoji = (joi) => ({
   base: joi.string(),
   name: 'string',
   language: {
